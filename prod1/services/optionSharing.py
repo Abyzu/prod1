@@ -49,4 +49,4 @@ async def get(optionsTicket: OptionsTicket):
 
         return "options shared"
     else:
-        return "bhang bhosda"
+        return "blah blah"
