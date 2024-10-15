@@ -11,7 +11,7 @@ from prod1.model import OptionsTicket, Options, Voucher, VoucherTicket
 logger = logging.getLogger("router")
 logger.setLevel(logging.INFO)
 
-openai.api_key = "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"
+openai.api_key = ""
 
 router = APIRouter()
 
