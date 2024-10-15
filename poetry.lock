@@ -487,6 +487,16 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=8.3.2)", "pytest-
 type = ["mypy (>=1.11.2)"]
 
 [[package]]
+name = "polling"
+version = "0.3.2"
+description = "Powerful polling utility with many configurable options"
+optional = false
+python-versions = "*"
+files = [
+    {file = "polling-0.3.2.tar.gz", hash = "sha256:3afd62320c99b725c70f379964bf548b302fc7f04d4604e6c315d9012309cc9a"},
+]
+
+[[package]]
 name = "pydantic"
 version = "2.9.2"
 description = "Data validation using Python type hints"
@@ -1064,4 +1074,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "ed319e3a93df1c8a6d0ff4f2f9d0ddf629b6e3e2f7d2b168f2a6c8bf106b9336"
+content-hash = "2ca6a8a3f9320f1a338f3dd84852655623d609d06b652fb328e90185c79f070f"

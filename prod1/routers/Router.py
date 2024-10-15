@@ -15,16 +15,19 @@ router = APIRouter()
 
 class Response(BaseModel):
     response: str
-    
+
+
 class Email_Data(BaseModel):
-    ticket_id : int 
+    ticket_id: int
     ticket_subject: str
     ticket_description: str
     ticket_url: str
     model_config = {"extra": "forbid"}
 
+
 class Payload(BaseModel):
-    freshdesk_webhook: Email_Data 
+    freshdesk_webhook: Email_Data
+
 
 tools = [
     {
